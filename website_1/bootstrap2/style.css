@@ -1,3 +1,16 @@
-.dropdown-menu {
+
+.dropdown.open {
+    position:static;
     width:100%;
 }
+
+.dropdown .dropdown-menu.open{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    width:  100% !important;
+    text-align:center;
+    left:0;
+    right:0;
+  }
