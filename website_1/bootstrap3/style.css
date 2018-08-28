@@ -2,3 +2,49 @@
     color:red;
 }
 
+.logo-image{
+    position:absolute;
+    top:0;
+    left:14rem;
+    z-index:1;
+
+}
+.big{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+.nav-link{
+    color:black;
+    font-size: 1.3rem;
+}
+
+.nav-item img{
+    width:2rem;
+    margin-top:1rem;
+}
+
+
+.multicolor{
+    height:50px;
+    background-image : linear-gradient(to right, skyblue 16.667%, darkred 33.333%, darkorange 50%,orange 66.667%,limegreen 83.333%,yellow 100%)
+}
+
+.container{
+    z-index:2;
+}
+.figure-salmon{
+    background:darksalmon;
+}
+
+.border-dashed{
+    border:1px black dashed;
+}
+
+.figure-caption a{
+    text-decoration:underline;
+    color:red;
+}
+
+.popularcomic{
+    margin-top: -1.7rem;
+}
